@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    color: white;
+    height: 160px;
+    background-color: rgb(26, 26, 83);
+}
+
+.lgotext .logo img {
+    border-radius: 40%;
+}
+
+.logotext {
+    text-align: center;
+    margin-top: 25px;
+    display: inline-flex;
+    color: white;
+    text-shadow: 3px 3px 3px black, -3px -3px 3px black;
+}
+
+.lgotext {
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: flex;
+}
+
+.header ul {
+    display: flex;
+    margin-left: 220px;
+}
+
+.header ul li {
+    margin-left: 120px;
+    list-style: none;
+
+}
+
+.header ul :hover {
+    color: blueviolet;
+    overflow-inline: visible;
+}
+
+.header ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+
+.header ul li a:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.dropcata:hover .dropdown-catagories,
+.dropdown-catagories li {
+    display: block;
+    z-index: 1;
+
+}
+
+.nav-bar a {
+    color: rgb(252, 129, 231);
+}
+
+
+
+.themchange:hover .them {
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown {
+    display: block;
+    width: 50px;
+    border-radius: 10px;
+}
+
+
+
+.dropdown-catagories {
+    display: none;
+    min-width: 200px;
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+    margin: 0 0 0 -30px;
+    background-color: rgb(62, 95, 95);
+}
+
+.dropdown-catagories li a {
+    margin-left: -145px;
+}
+
+.dropcata img {
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}

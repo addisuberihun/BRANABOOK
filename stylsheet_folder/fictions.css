@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.imgcontainer {
+  width: 800px;
+
+  display: flex;
+  justify-content: center !important;
+}
+
+.imagelink a:hover {
+  background-color: rgb(24, 24, 94);
+  cursor: pointer;
+  width: 550px;
+
+}
+
+.div1 .imagelink {
+  display: flex;
+}
+
+.div1 {
+  display: block;
+  /* float: left; */
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+i {
+  display: inline-flexbox;
+}

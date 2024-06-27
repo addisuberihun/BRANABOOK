@@ -1,0 +1,60 @@
+.bookbody {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 197, 197);
+}
+
+.booaddcontainer {
+    background-color: rgb(57, 143, 146);
+    height: 700px;
+    width: 50%;
+    margin: 80px 400px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+
+.bookaddbox {
+    margin: 40px 40px;
+
+    border-radius: 20px;
+}
+
+.bookaddbox .level {
+    padding: 5px;
+    width: 80%;
+    height: 90%;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.bookaddbox .level input {
+    border: none;
+    height: 30px;
+    outline: none;
+    min-width: 60%;
+    color: indigo;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+
+.bookaddbox:hover {
+    background-color: rgb(107, 171, 173);
+    cursor: pointer;
+}
+
+.bookaddbox .submit input {
+    margin-top: 4px;
+    margin-left: 70%;
+    border-radius: 40px;
+    background-color: blue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.bookaddbox .submit input:hover {
+    background-color: orangered;
+    font-size: 25px;
+    cursor: pointer;
+}

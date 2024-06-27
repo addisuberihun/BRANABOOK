@@ -1,0 +1,38 @@
+.footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    background-color: darkgrey;
+}
+
+.footer ul li {
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 6px;
+    display: grid;
+}
+
+.revised {
+    background-color: gray;
+}
+
+.revised p {
+    margin: 0;
+    margin-left: 300px;
+}
+
+.footer .foo {
+    margin: auto;
+}
+
+ul li a {
+    color: rgb(63, 38, 38);
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: darkorchid;
+}

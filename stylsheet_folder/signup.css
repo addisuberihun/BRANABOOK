@@ -1,0 +1,121 @@
+body {
+   background-color: rgb(72, 108, 109);
+   margin: 0;
+   padding: 0;
+
+}
+
+
+#icon {
+   float: right;
+   height: 50px;
+   position: relative;
+   font-size: 25px;
+   padding-top: 10px;
+}
+
+.input-group #error-msg {
+   display: none;
+   color: #ff2851;
+   font-size: 14px;
+   margin-top: 10px;
+}
+
+.input-group #error-fname {
+   display: none;
+   color: #ff2851;
+   font-size: 14px;
+   margin-top: 10px;
+
+}
+
+.input-group #error-lname {
+   display: none;
+   color: #ff2851;
+   font-size: 14px;
+   margin-top: 10px;
+}
+
+.input-group #error-pass {
+   display: none;
+   color: #ff2851;
+   font-size: 14px;
+   margin-top: 10px;
+}
+
+.input-group #error-pass2 {
+   display: none;
+   color: #ff2851;
+   font-size: 14px;
+   margin-top: 10px;
+}
+
+.input-group {
+   padding: 20px;
+   align-items: center;
+   justify-content: center;
+   display: block;
+   margin: 100px auto;
+   width: 280px;
+   min-height: 270px;
+   background-color: darkcyan;
+   box-shadow: 5px 5px -5px darkgrey, 5px 5px -5px darkgrey;
+   border-radius: 10px;
+
+}
+
+.btn :hover {
+   background-color: rgb(255, 0, 85);
+}
+
+.input-group .input_inside {
+   margin: 10px;
+   width: 90%;
+   height: 40px;
+   border-radius: 10px;
+   display: flex;
+   margin-left: 10px;
+   background-color: white;
+}
+
+.input_inside input {
+
+   border: none;
+   border-radius: 10px;
+   width: 100%;
+   height: 95%;
+
+   outline: none;
+   background-color: white;
+}
+
+.input_inside input[type="radio"] {
+
+   border: none;
+   border-radius: 10px;
+   height: 40%;
+   margin-top: 10px;
+   margin-left: 15px;
+   padding: 15px;
+   outline: none;
+   background-color: white;
+}
+
+.btn input[type="submit"] {
+   border-radius: 10px;
+   height: 40px;
+   width: 100px;
+   margin-top: 10px;
+   margin-left: 130px;
+   padding: 15px;
+   background-color: rgb(44, 146, 23);
+   font-size: 20px;
+}
+
+.input_inside img {
+
+   border: none;
+   border-radius: 10px;
+   outline: none;
+   background-color: white;
+}

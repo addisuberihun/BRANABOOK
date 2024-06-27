@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-color: rgb(72, 108, 109);
+    background-color: rgb(72, 108, 109);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+
+
+.show {
+    display: flex;
+    height: 30px;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 27px 30px;
+    background-color: white;
+}
+
+.show img {
+    border-radius: 10px;
+}
+
+.em {
+    display: flex;
+    height: 30px;
+    border: 1px solid black;
+    width: 230px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 27px 30px;
+}
+
+form .logincon {
+    margin: 80px auto;
+    height: 270px;
+    width: 280px;
+    margin-top: 14%;
+    border-radius: 10px;
+    background-color: rgb(123, 138, 126);
+    border: 1px solid rgb(231, 216, 216);
+}
+
+h3 {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+form .logincon input {
+    text-align: left;
+    padding: 15px;
+    width: 230px;
+    color: rgb(12, 12, 78);
+    opacity: 0.9;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+form .logincon .submit {
+    padding: 5px;
+    border-radius: 20%;
+    font-size: 25px;
+    width: 90px;
+    opacity: 0.9;
+    margin-left: 120px;
+    background-color: rgb(189, 37, 10);
+}
+
+form .logincon .submit:hover {
+    background-color: rgb(16, 138, 16);
+}
+
+.loginhere h3 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: blue;
+    margin-left: 60px;
+}
